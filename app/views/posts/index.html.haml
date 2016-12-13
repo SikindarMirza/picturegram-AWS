@@ -2,20 +2,9 @@
   -@posts.each do |post|
     .post
       .post-head
-        .thumb-img
-        .user-name
-          posts
+        .name
+          New post
       .image.center-block
         =link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post)
-      .post-bottom
-        .caption
-          = post.caption
-        - if post.comments
-          - post.comments.each do |comment|
-            .comment-content
-              = comment.content
-              - if comment.user == current_user
-                = link_to post_comment_path(post, comment), method: :delete, data: { confirm: "Are you sure?" }
-        .comment-form
-          = form_for [post, post.comments.new] do |f|
-            = f.text_field :content, placeholder: 'Add a comment...'
+      %p.caption
+        =post.caption
