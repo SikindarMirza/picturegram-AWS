@@ -16,7 +16,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  background-color: #fafafa;
+  background-color: rgb(168, 219, 245);
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
@@ -29,8 +29,8 @@ body {
 }
 
 .navbar-default {
-  background-color: #fff;
-  height: 54px;
+  background-color: #102129;
+  height: 75px;
   .navbar-nav li a {
     color: #125688;
   }
