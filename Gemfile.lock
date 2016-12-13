@@ -171,7 +171,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.5)
+  bootstrap-sass (~> 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
   haml
@@ -181,7 +181,7 @@ DEPENDENCIES
   pg
   rails (= 4.2.6)
   rails_12factor
-  sass-rails (~> 5.0)
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   simple_form (~> 3.1.0)
   spring
