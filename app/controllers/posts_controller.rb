@@ -33,7 +33,7 @@ def update
   end
 end
 def destroy
-  @post.destroy
+  @post.delete
   redirect_to root_path
 end
 private
